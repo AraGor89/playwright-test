@@ -1,0 +1,25 @@
+{
+  "name": "qa-tech-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:dev": "cross-env ENV=dev npx playwright test",
+    "env:dev-ui": "cross-env ENV=dev npx playwright test --project=chromium --ui",
+    "env:dev-headed": "cross-env ENV=dev npx playwright test --project=chromium --headed",
+    "env:dev-debug": "cross-env ENV=dev npx playwright test --project=chromium --debug",
+    "codegen": "npx playwright codegen",
+    "env:stage": "cross-env ENV=stage npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
