@@ -1,6 +1,6 @@
 import type { Page, Locator } from "@playwright/test";
 
-export class MainPage {
+export default class MainPage {
   private readonly newOrderButton: Locator;
   private readonly newPositionSubmit: Locator;
   private readonly modalOkButton: Locator;

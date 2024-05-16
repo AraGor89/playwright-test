@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "env:dev": "cross-env ENV=dev npx playwright test",
-    "env:dev-ui": "cross-env ENV=dev npx playwright test --project=chromium --ui",
-    "env:dev-headed": "cross-env ENV=dev npx playwright test --project=chromium --headed",
-    "env:dev-debug": "cross-env ENV=dev npx playwright test --project=chromium --debug",
-    "codegen": "npx playwright codegen",
-    "env:stage": "cross-env ENV=stage npx playwright test"
+    "env:dev-ui": "cross-env ENV=dev npx playwright test --project=chromium --ui"
   },
   "keywords": [],
   "author": "",
