@@ -1,6 +1,8 @@
 # Playwright-test
 
-### Create a `.env.dev` file in the root folder
+### Run `npm install` for installing all dependencies.
+
+### Create a `.env.dev` file in the root folder (same level as ‘.env.example’ file) and populate it with respective values.
 
 - see .env.example
 
@@ -14,6 +16,6 @@
 
 - Will run the app in dev env (.env.dev), in browser chrome.
 
-### To add more scripts with different configuration, consider checking out the documentation following this link.
+#### To add more scripts with different configuration, consider checking out the documentation following this link.
 
 - https://playwright.dev/docs/test-cli
